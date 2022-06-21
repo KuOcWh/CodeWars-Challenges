@@ -11,3 +11,40 @@
 //5, 2, "multiply" --> 10
 //5, 2, "divide"   --> 2.5
 
+// try and do it without using if statements
+
+//I only saw the bottom comment once I had done if statements, so did a switch and case instead :)
+
+
+
+
+function arithmetic(a, b, operator){
+    //your code here!
+   // if(operator === 'add'){
+    //  return a + b
+   // }else if(operator === 'subtract'){
+   //   return a - b
+    //}else if(operator === 'multiply'){
+    //  return a * b
+    //}else{
+    //  return a / b
+   // }
+  switch(operator){
+      case 'add':
+      return a + b
+      break;
+      case 'multiply':
+      return a * b
+      break;
+      case 'subtract':
+      return a - b
+      break;
+      case 'divide':
+      return a / b
+  }
+  
+  
+  
+  
+  }
+  
