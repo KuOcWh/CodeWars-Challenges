@@ -8,3 +8,9 @@
 
 //friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 //Note: keep the original order of the names in the output.
+
+function friend(friends){
+    //your code here
+    let result = friends.filter(word => word.length === 4)
+    return result
+  }
