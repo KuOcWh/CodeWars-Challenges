@@ -11,3 +11,9 @@
 //time = 6.7---> litres = 3
 
 //time = 11.8--> litres = 5
+
+function litres(time) {
+    let drink = 0.5
+    let hours = time;
+    return Math.floor(drink * hours)
+  }
